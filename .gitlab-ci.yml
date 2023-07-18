@@ -5,4 +5,4 @@ run-sast-job:
     stage: runSAST
     image: maven:3.8.5-openjdk-11-slim
     script: |
-      mvn verify package sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=gitlabdevsecopsintegration -Dsonar.projectKey=gitlabdevsecopsintegration -Dsonar.login=token01 
+      mvn verify package sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=dcsdemosecops -Dsonar.projectKey=dcsdemosecops -Dsonar.login=92247d5d931ca14a5413a1b9a438f1a97bf5ffbd 
