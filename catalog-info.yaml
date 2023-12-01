@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devsecops-gitlab-sonarcloud-sast-without-code-coverage-repo
+  annotations:
+    github.com/project-slug: Prayankag/devsecops-gitlab-sonarcloud-sast-without-code-coverage-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
