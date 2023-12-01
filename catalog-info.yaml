@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: Prayankag/devsecops-gitlab-sonarcloud-sast-without-code-coverage-repo
 spec:
-  type: other
-  lifecycle: unknown
+  type: SonarCloud
+  lifecycle: Testing
   owner: guests
